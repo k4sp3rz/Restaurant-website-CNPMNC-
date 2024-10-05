@@ -6,10 +6,14 @@ using System.Web.Mvc;
 
 namespace CNPM_NC.Controllers
 {
-    public class MainController : Controller
+    public class mainController : Controller
     {
-        // GET: Main
+        // GET: main
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Menu()
         {
             return View();
         }
